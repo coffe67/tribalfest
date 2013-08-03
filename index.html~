@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	 <meta charset="utf-8"/>
+	 <link rel="stylesheet" href="style.css" />
 		<title>	
 			Tribal Fest Guadalajara 2014 &copy; 	
 		</title>
 	</head>
-
 	<body>
+		<header>	
+		   <figure>
+				<img src="" alt="Tribal Fest Guadalajara 2014" >		   
+		   </figure>				
+		</header>
+		<nav>
+			<ul>
+				<li>Inicio</li>
+				<li>Show & Bazar</li>
+				<li>Seminarios</li>
+				<li>Artistas</li>
+				<li>Galeria</li>
+				<li>Tienda</li>
+				<li>Videos</li>
+				<li>Patrocinadores</li>
+			</ul>			
+		</nav>
+		<section>
+			<article>
+				<h1></h1>
+				<div>										
+				</div>
+			</article>		
+		</section>
 
+		<footer>
+		</footer>
 	</body>
 </html>

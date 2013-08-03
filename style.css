@@ -1,0 +1,114 @@
+/*Style CSS Tribal Fest*/
+body
+{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+}
+header
+{
+	background: #434343;
+	color: white;
+	padding: 0.5em;
+	text-align: left;
+}
+
+footer
+{
+	background: #434343;
+	bottom: 0;
+	color: #A7A7A7;
+	left: 0;
+	padding: 1em 0;
+	/*position: fixed;*/
+	text-align: center;
+	width: 100%;
+}
+footer p
+{
+	margin: 0;
+}
+
+header figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 60%;
+}
+
+nav
+{
+	background: #878787;
+	color: white;
+	font-size: 0.9em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+}
+nav ul li a 
+{
+	color:  white;
+	display: block;
+	padding: 0.5em 0;
+}
+nav #flechita_nav
+{
+	background: #22BCE0;
+}
+nav #flechita_nav a
+{
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+nav #flechita_nav a:after
+{
+	content: "\e002";
+	font-family: "icomoon";
+	font-size: 0.7em;
+}
+nav #publicar_nav
+{
+	background: #DD4F24;
+	float: right;
+	margin-right: 0;
+	padding-right: 1.5em; 
+	position: relative;
+}
+nav #publicar_nav:after
+{
+	display: block;
+	color: rgba(255,255,255,0.5);
+	content: "\e004";
+	font-family: "icomoon";
+	font-size: 1.8em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+nav #publicar_nav a
+{
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+#contenido
+{
+	margin: 1em;
+}
