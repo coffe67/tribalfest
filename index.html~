@@ -3,6 +3,7 @@
 	<head>
 	 <meta charset="utf-8"/>
 	 <link rel="stylesheet" href="style.css" />
+	 <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
 		<title>	
 			Tribal Fest Guadalajara 2014 &copy; 	
 		</title>
@@ -43,7 +44,6 @@
 				</div>
 			</article>		
 		</section>
-
 		<footer>
 			<p>Powered by DAKANA &copy;</p>
 			<p>www.dakana.com.mx</p>

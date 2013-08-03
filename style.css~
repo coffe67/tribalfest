@@ -4,7 +4,7 @@ body
 {
 	background: #EFEFEF;
 	color: #4C4C4C;
-	font-family: Arial;
+	font-family: 'ABeeZee', Arial;
 	font-size: 16px;
 	margin: 0;
 }
@@ -46,7 +46,7 @@ header h1
 	width: 60%;
 }
 /*Logo*/
-#logo{
+#logo img{
 	width: 320px;	
 }
 /*Style para Menu*/
@@ -79,4 +79,15 @@ nav ul li a
 #contenido
 {
 	margin: 1em;
+	text-align: center;
+}
+#contenido #call_to_action{
+  float:right;
+  width: 235px;
+  margin:0;
+  padding:0;
+}
+#contenido #call_to_action #suscription{
+
+ padding:1em 0.5e;   
 }
