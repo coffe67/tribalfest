@@ -9,9 +9,9 @@
 	</head>
 	<body>
 		<header>	
-		   <figure>
-				<img src="" alt="Tribal Fest Guadalajara 2014" >		   
-		   </figure>				
+			<figure id="logo">
+				<img src="tribalfest_logo_cool.png" alt="Tribal Fest Guadalajara 2014"/>
+			</figure>		   				
 		</header>
 		<nav>
 			<ul>
@@ -25,15 +25,28 @@
 				<li>Patrocinadores</li>
 			</ul>			
 		</nav>
-		<section>
-			<article>
-				<h1></h1>
-				<div>										
+		<section id="contenido">
+			<h1>¡El festival mas grande de danza árabe tribal, fusión,ats & its en guadalajara, méxico!</h1>
+			<article id="promo">				
+				<aside id="call_to_action">				
+					<div id="subscribe">
+						<h3>Te intersa el evento?, suscribete a nuestra lista y te mantendremos informado </h3>
+					</div>
+					<div id="counter">
+						Evento en:
+						
+						(Months) : (Weeks) : (Days) :(Minutes)						
+					</div>
+				</aside>
+				<div id="description">
+				
 				</div>
 			</article>		
 		</section>
 
 		<footer>
+			<p>Powered by DAKANA &copy;</p>
+			<p>www.dakana.com.mx</p>
 		</footer>
 	</body>
 </html>

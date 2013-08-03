@@ -1,18 +1,20 @@
 /*Style CSS Tribal Fest*/
+@import url(http://fonts.googleapis.com/css?family=ABeeZee);
 body
 {
 	background: #EFEFEF;
 	color: #4C4C4C;
-	font-family: Arial;
+	font-family: 'ABeeZee', Arial;
 	font-size: 16px;
 	margin: 0;
 }
+
 header
 {
 	background: #434343;
 	color: white;
 	padding: 0.5em;
-	text-align: left;
+	text-align: center;
 }
 
 footer
@@ -43,11 +45,16 @@ header h1
 	margin: 1em 0 0 1em;
 	width: 60%;
 }
-
+/*Logo*/
+#logo{
+	width: 320px;	
+}
+/*Style para Menu*/
 nav
 {
 	background: #878787;
 	color: white;
+	text-align: center;
 	font-size: 0.9em;
 }
 nav ul
@@ -68,46 +75,7 @@ nav ul li a
 	display: block;
 	padding: 0.5em 0;
 }
-nav #flechita_nav
-{
-	background: #22BCE0;
-}
-nav #flechita_nav a
-{
-	padding: 0.5em 0.5em;
-	text-decoration: none;
-}
-nav #flechita_nav a:after
-{
-	content: "\e002";
-	font-family: "icomoon";
-	font-size: 0.7em;
-}
-nav #publicar_nav
-{
-	background: #DD4F24;
-	float: right;
-	margin-right: 0;
-	padding-right: 1.5em; 
-	position: relative;
-}
-nav #publicar_nav:after
-{
-	display: block;
-	color: rgba(255,255,255,0.5);
-	content: "\e004";
-	font-family: "icomoon";
-	font-size: 1.8em;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-nav #publicar_nav a
-{
-	display: inline-block;
-	padding: 0.5em 1em;
-	text-decoration: none;
-}
+/*Style para Contenidos */
 #contenido
 {
 	margin: 1em;

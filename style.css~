@@ -1,4 +1,5 @@
 /*Style CSS Tribal Fest*/
+@import url(http://fonts.googleapis.com/css?family=ABeeZee);
 body
 {
 	background: #EFEFEF;
@@ -7,8 +8,75 @@ body
 	font-size: 16px;
 	margin: 0;
 }
+
 header
 {
 	background: #434343;
+	color: white;
 	padding: 0.5em;
+	text-align: center;
+}
+
+footer
+{
+	background: #434343;
+	bottom: 0;
+	color: #A7A7A7;
+	left: 0;
+	padding: 1em 0;
+	/*position: fixed;*/
+	text-align: center;
+	width: 100%;
+}
+footer p
+{
+	margin: 0;
+}
+
+header figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 60%;
+}
+/*Logo*/
+#logo{
+	width: 320px;	
+}
+/*Style para Menu*/
+nav
+{
+	background: #878787;
+	color: white;
+	text-align: center;
+	font-size: 0.9em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+}
+nav ul li a 
+{
+	color:  white;
+	display: block;
+	padding: 0.5em 0;
+}
+/*Style para Contenidos */
+#contenido
+{
+	margin: 1em;
 }
