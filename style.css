@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=ABeeZee);
 body
 {
-	background: #3e3e3e;/*#434343;*/
+	background: #0e0e0e;/*#434343;*/
 	color: #4C4C4C;
 	font-family: 'ABeeZee', Arial;
 	font-size: 16px;
@@ -11,8 +11,6 @@ body
 
 header
 {
-	
-		
 	width: 100%;
 	color: white;
 	padding: 0.5em;
