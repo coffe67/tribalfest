@@ -16,20 +16,16 @@ header
 	padding: 0.5em;
 	text-align: center;
 }
-header figure, header h1
+header figure
 {
 	display: inline-block;
 	vertical-align: top;
 }
-header h1
-{
-	font-size: 20px;
-	font-weight: normal;
-	margin: 1em 0 0 1em;
-	width: 60%;
-}
+
+
 header figure #logo{
-	width: 320px;	
+	width: 250px;
+	margin: 0;	
 }
 
 footer
@@ -55,8 +51,8 @@ nav
 	background: #878787;
 	color: white;	
 	text-align: center;	
-	font-size: 0.9em;
-	background: url('head-bg.png')  top repeat-y;
+	font-size: 1em;
+	background: url('head-bg.png')  top ;
 }
 nav ul
 {
@@ -81,14 +77,24 @@ nav ul li a
 #contenido{
 	margin: 0;
 	padding: 0;	
+	text-align: center;
 }
+#contenido h1,h2,h3,h4,h5{
+	color: #D46E2A;	
+	text-decoration: 
+
+}
+#contenido  #subscription h2,h3,h4,h5{
+	font-size: .95em;
+}
+
 #contenido .segmentos{
 	margin: 0;
 	padding: 0;	
 	/*background: white;*/
 	border-bottom: 3px #22BCE0 solid;
 	margin-bottom: 3em;
-	min-height: 354px;
+	min-height: 320px;
 	position: relative;
 
 }
@@ -96,6 +102,9 @@ nav ul li a
 /*This Style Change With View Port*/
 #contenido .segmentos #segmento-right{
 
+}
+.segmento-right #contador{
+	/*A + de 320 width:320px; and min-width:320*/
 }
 #contenido .segmentos #segmento-left{
 
@@ -148,19 +157,13 @@ nav ul li a
 	cursor: pointer;
 }
 
-#contenido  #subscription h2,h3,h4,h5{
-	font-size: .95em;
-}
-.segmentos .title{
-	background: url('head-bg.png')  top;
-	color: #4C4C4C;
-	font-weight: bolder;
-} 
+
+
 .segmento-right #contador{
 	/*width: 100%;*/
 	margin: 3px auto;
 	width: 320px;
-	min-width: 320px;
+	/*min-width: 320px;*/
 	position: relative;
 	top: 1em;
 	display: inline-block;
@@ -180,8 +183,7 @@ nav ul li a
 	background: #fff transparent url(images/box.jpg) 0 0 no-repeat;
 	float: left;
 	margin: 0 3px;
-	display: inline-block;
-	/*margin-left: 20px;*/
+	display: inline-block;	
 	position: relative;
 }
 .segmento-right #contador  .dash .digit {
@@ -206,35 +208,26 @@ nav ul li a
 	color: #2f2e2e;	
 }
 
+.segmentos .title{
+	background: url('head-bg.png')  top;
+	color: #4C4C4C;
+	font-weight: bolder;
+} 
 
-
-#contenido .segmentos #call_to_action{
-	width: 45%;
-	
-	float: left;	
-}
-#contenido .segmentos #description{
-	width: 55%;
-	float: left;	
-}
-#contenido h1{
-	color: #D46E2A;	
-
-}
-#contenido
-{
-	margin: 1em;
-	text-align: center;
-	/*width: 100%;*/
-}
-#contenido #call_to_action{
-
-}
-#contenido #call_to_action #suscription{
- font-size: 1em;
- padding:1em 0.5em;    
+.segmentos .artist-portrait{
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	width: 110px;
+	min-height: 110px;
+	border-radius: 5px;
+	border-color: white;
+	background: gray;
 }
 
+.segmentos .artist-portrait figcaption{
+
+}
 
 /** Countdown */
 
