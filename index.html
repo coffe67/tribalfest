@@ -3,13 +3,36 @@
 	<head>
 	 <meta charset="utf-8"/>
 	 <link rel="stylesheet" href="normalize.css" />
-	 <link rel="stylesheet" href="style.css" />
+	 <link rel="stylesheet" href="style.css" />	 
 	 <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+	 <script type="text/javascript" src='scripts/jquery-1.10.2.min.js'> </script>
+	 <script type="text/javascript" src='scripts/black-with-img.js'> </script>
 		<title>	
 			Tribal Fest Guadalajara 2014 &copy; 	
 		</title>
+	<script type="text/javascript">
+		$(window).load(function(){
+    	$('.artist-portrait').BlackAndWhite({
+        	hoverEffect : true, // default true
+        	// set the path to BnWWorker.js for a superfast implementation
+        	webworkerPath : false,
+        	// for the images with a fluid width and height 
+        	responsive:true,
+        	// to invert the hover effect
+        	invertHoverEffect: false,
+        	speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+            	fadeIn: 200, // 200ms for fadeIn animations
+            	fadeOut: 800 // 800ms for fadeOut animations
+        	},
+        	onImageReady:function(img) {
+        		// this callback gets executed anytime an image is converted
+        	}
+    	});
+		});
+	</script>	
 	</head>
 	<body>
+
 		<header>	
 			<figure>
 				<img  id="logo" src="tribalfest_logo_cool.png" alt="Tribal Fest Guadalajara 2014"/>
@@ -72,32 +95,40 @@
 					</div>			
 				</div>
 			</article>	
-			<article class="segmentos">
+			<article class="segmentos">				
 				<h2 class="title">Artistas Invitados</h2>
 				<figure class="artist-portrait">
-					<img src="" alt=""/>
+					<img src="images/invitados/mira_betz_tribalfest2014.jpg" alt="Mira Betz - Tribal Fest 2014"/>	
 					<figcaption>
-						artist	
-					</figcaption>	
+						<span>Mira Betz</span>
+					</figcaption>
+				</figure>	
+				<figure class="artist-portrait">					
+					<img src="images/invitados/april_rose_tribalfest2014.jpg" alt="April Rose - Tribal Fest 2014"/>
+					<figcaption>
+						<span>April Rose</span>
+					</figcaption>
 				</figure>	
 				<figure class="artist-portrait">
-					<img src="" alt=""/>	
+					<img src="images/invitados/caro_dumanni_tribalfest2014.jpg" alt="Caro Dumanni - Tribal Fest 2014"/>	
+					<figcaption>
+						<span>Caro Dumanni</span>
+					</figcaption>
+				</figure>	
+				
+				<figure class="artist-portrait">
+					<img src="images/invitados/tobias_melchor_tribalfest2014.jpg" alt="Tobias Melchor - Tribal Fest 2014"/>	
+					<figcaption>
+						<span>Tobias Melchor</span>
+					</figcaption>
 				</figure>	
 				<figure class="artist-portrait">
-					<img src="" alt=""/>	
+					<img src="images/invitados/tracy_rhaj_tribalfest2014.jpg" alt="Tracy Rhaj - Tribal Fest 2014"/>	
+					<figcaption>
+						<span>Tracy Rhaj</span>
+					</figcaption>
 				</figure>	
-				<figure class="artist-portrait">
-					<img src="" alt=""/>	
-				</figure>	
-				<figure class="artist-portrait">
-					<img src="" alt=""/>	
-				</figure>	
-				<figure class="artist-portrait">
-					<img src="" alt=""/>	
-				</figure>	
-				<figure class="artist-portrait">
-					<img src="" alt=""/>	
-				</figure>	
+				
 			</article>	
 		</section>
 		<footer>

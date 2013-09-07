@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=ABeeZee);
 body
 {
-	background: #0e0e0e;/*#434343;*/
+	background: #0e0e0e url(images/bg-dark.jpg) repeat;/*; #434343 url(images/bg-dark.jpg)*/
 	color: #4C4C4C;
 	font-family: 'ABeeZee', Arial;
 	font-size: 16px;
@@ -24,7 +24,7 @@ header figure
 
 
 header figure #logo{
-	width: 250px;
+	width: 310px;
 	margin: 0;	
 }
 
@@ -80,8 +80,8 @@ nav ul li a
 	text-align: center;
 }
 #contenido h1,h2,h3,h4,h5{
-	color: #D46E2A;	
-	text-decoration: 
+	color: #3f9595;/*#D46E2A;*/
+	text-decoration: none;
 
 }
 #contenido  #subscription h2,h3,h4,h5{
@@ -92,7 +92,7 @@ nav ul li a
 	margin: 0;
 	padding: 0;	
 	/*background: white;*/
-	border-bottom: 3px #22BCE0 solid;
+	/*border-bottom: 3px #22BCE0 solid;*/
 	margin-bottom: 3em;
 	min-height: 320px;
 	position: relative;
@@ -180,7 +180,7 @@ nav ul li a
 .segmento-right #contador  .dash {
 	width: 30%;
 	height: 50px;
-	background: #fff transparent url(images/box.jpg) 0 0 no-repeat;
+	background: #fff transparent url('images/box.jpg') 0 0 no-repeat;
 	float: left;
 	margin: 0 3px;
 	display: inline-block;	
@@ -210,25 +210,61 @@ nav ul li a
 
 .segmentos .title{
 	background: url('head-bg.png')  top;
-	color: #4C4C4C;
+	color: #fff;
 	font-weight: bolder;
+
 } 
 
 .segmentos .artist-portrait{
 	display: inline-block;
 	position: relative;
 	margin: 0;
-	width: 110px;
-	min-height: 110px;
-	border-radius: 5px;
+	padding: 0;
+	
+	/*border-radius: 5px;
 	border-color: white;
-	background: gray;
+	background: gray;*/
+}
+.segmentos .artist-portrait img{
+	display: block;
+	width: 210px;
+	height: 210px;
+	border-radius: 7px;
 }
 
-.segmentos .artist-portrait figcaption{
-
+.segmentos .artist-portrait figcaption {
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0% 0% rgba(87, 73, 81, 0.1);
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s linear 0s;
 }
-
+.segmentos .artist-portrait:hover figcaption span {
+    position: absolute;
+    top: 70%;
+   /* margin-top: -30px;*/
+    right: 20px;
+    left: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: none repeat scroll 0% 0% rgba(76,76,76, 0.7);/* rgba(212, 110, 42, 0.3),rgba(63, 149, 149, 0.3),rgba(87, 73, 81, 0.3);*/
+    line-height: 20px;
+    font-size: .8em;
+    opacity: 1;
+   /* text-transform: uppercase;*/
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 7px;
+    color: #d46e2a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.segmentos .artist-portrait  figcaption span {
+    transition: all 0.4s ease-in-out 0.5s;
+    opacity: 0;
+    top: 50%;
+}
 /** Countdown */
 
 
@@ -256,4 +292,50 @@ height: 454px;
 overflow: hidden;
 position: relative;
 font-size: 0;
+}
+
+
+ia-container figcaption {
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0% 0% rgba(87, 73, 81, 0.1);
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s linear 0s;
+}
+
+.ia-container figcaption span {
+    position: absolute;
+    top: 40%;
+    margin-top: -30px;
+    right: 20px;
+    left: 20px;
+    overflow: hidden;
+    text-align: center;
+    background: none repeat scroll 0% 0% rgba(87, 73, 81, 0.3);
+    line-height: 20px;
+    font-size: 18px;
+    opacity: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.ia-container input:checked + figcaption span {
+    transition: all 0.4s ease-in-out 0.5s;
+    opacity: 1;
+    top: 50%;
+}
+.ia-container input:checked + figcaption, .ia-container input:checked:hover + figcaption {
+    background: none repeat scroll 0% 0% rgba(87, 73, 81, 0);
+}
+.ia-container figcaption {
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0% 0% rgba(87, 73, 81, 0.1);
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s linear 0s;
 }
