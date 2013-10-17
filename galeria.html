@@ -3,13 +3,19 @@
 	<head>
 	 <meta charset="utf-8"/>
 	 <link rel="stylesheet" href="normalize.css" />
-	 <link rel="stylesheet" href="style.css" />	 
+	 <link rel="stylesheet" href="css/in_style.css" />	 
 	 <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
-	 <script type="text/javascript" src='scripts/jquery-1.10.2.min.js'> </script>
-	 <script type="text/javascript" src='scripts/black-with-img.js'> </script>
+	 <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	 <script type="text/javascript" src='scripts/jquery-1.10.2.min.js'> </script>	 
+	 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>	 
 		<title>	
 			Tribal Fest Guadalajara 2014 &copy; / Galeria	
 		</title>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
 	</head>
 	<body>
 		<header>
@@ -33,20 +39,64 @@
 				</ul>			
 			</nav>
 		</header>
-		<section id="contenido">
-			<h2>Tribal Fest Guadalajara &copy; 2014</h2>
-			<article>						
-				<figure>
-					<img src="">
-					<figcaption>
 
-					</figcaption>
-				</figure>
-			</article>
-			<h2>Tribal Fest Guadalajara &copy; 2013</h2>
-			<article></article>
-			<h2>Tribal Fest Guadalajara &copy; 2012</h2>
-			<article></article>
+
+		<section id="contenido">
+						
+				<h2>Tribal Fest Guadalajara &copy; 2014</h2>
+				<article class="pictures_set">				
+					<figure class="set_item">
+						<a class="fancybox" rel="group" href="images/invitados/tracy_rhaj_tribalfest2014.jpg">
+							<img src="images/invitados/tracy_rhaj_tribalfest2014.jpg" alt="Tribal Fest 2014 &copy; - Tracy">
+						</a>
+						<figcaption>
+
+						</figcaption>
+					</figure>
+					<figure class="set_item">
+						<a class="fancybox" rel="group" href="images/invitados/tracy_rhaj_tribalfest2014.jpg">
+							<img src="images/invitados/tracy_rhaj_tribalfest2014.jpg" alt="Tribal Fest 2014 &copy; - Tracy">
+						</a>
+						<figcaption>
+
+						</figcaption>
+					</figure>
+					<figure class="set_item">
+						<a class="fancybox" rel="group" href="images/invitados/tracy_rhaj_tribalfest2014.jpg">
+							<img src="images/invitados/tracy_rhaj_tribalfest2014.jpg" alt="Tribal Fest 2014 &copy; - Tracy">
+						</a>
+						<figcaption>
+
+						</figcaption>
+					</figure>
+					<figure class="set_item">
+						<a class="fancybox" rel="group" href="images/invitados/tracy_rhaj_tribalfest2014.jpg">
+							<img src="images/invitados/tracy_rhaj_tribalfest2014.jpg" alt="Tribal Fest 2014 &copy; - Tracy">
+						</a>
+						<figcaption>
+
+						</figcaption>
+					</figure>
+				</article>			
+				<h2>Tribal Fest Guadalajara &copy; 2013</h2>
+				<article class="pictures_set">				
+					<figure class="set_item">
+						<img src="">
+						<figcaption>
+
+						</figcaption>
+					</figure>
+				</article>			
+				<h2>Tribal Fest Guadalajara &copy; 2012</h2>
+				<article class="pictures_set">				
+					<figure class="set_item">
+						<img src="">
+						<figcaption>
+
+						</figcaption>
+					</figure>
+				</article>			
+			
 		</section>
 		<footer>
 

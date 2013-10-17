@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=ABeeZee);
 body
 {
-	background: #0e0e0e url(images/bg-dark.jpg) repeat;/*; #434343 url(images/bg-dark.jpg)*/
+	background: #0e0e0e url(../images/bg-dark.jpg) repeat;/*; #434343 url(images/bg-dark.jpg)*/
 	color: #4C4C4C;
 	font-family: 'ABeeZee', Arial;
 	font-size: 16px;
@@ -52,7 +52,7 @@ nav
 	color: white;	
 	text-align: center;	
 	font-size: 1em;
-	background: url('head-bg.png')  top ;
+	background: url('../head-bg.png')  top ;
 }
 nav ul
 {
@@ -87,7 +87,18 @@ nav ul li a
 #contenido  #subscription h2,h3,h4,h5{
 	font-size: .95em;
 }
-
+#contenido .pictures_set{
+	display:block;
+}
+#contenido .pictures_set .set_item{
+	display: inline-block;	
+}
+#contenido .pictures_set .set_item img{
+ 	display: block;
+	width: 210px;
+	height: 210px;
+	border-radius: 7px;
+}
 #contenido .segmentos{
 	margin: 0;
 	padding: 0;	
@@ -128,7 +139,7 @@ nav ul li a
 }
 
 #contenido .segmentos #subscription .input.email {
-    background: url("images/mail.jpg") no-repeat scroll 10px center #F6F6F6;
+    background: url("../images/mail.jpg") no-repeat scroll 10px center #F6F6F6;
     position: relative;
     z-index: 2;
 }
