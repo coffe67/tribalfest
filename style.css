@@ -99,16 +99,6 @@ nav ul li a
 
 }
 
-/*This Style Change With View Port*/
-#contenido .segmentos #segmento-right{
-
-}
-.segmento-right #contador{
-	/*A + de 320 width:320px; and min-width:320*/
-}
-#contenido .segmentos #segmento-left{
-
-}
 
 #contenido .segmentos #subscription .input-content {
     margin-bottom: 10px;
@@ -171,17 +161,17 @@ nav ul li a
 }
 
 .segmento-right #contador h3{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bolder;
-	color: purple;
+	color:#3f9595; /*brown*/
 	margin: 2px;
 	position: relative;
 }
 
 .segmento-right #contador  .dash {
 	width: 30%;
-	height: 50px;
-	background: #fff transparent url('images/box.jpg') 0 0 no-repeat;
+	height: 50px;	
+	background: #fff transparent url('images/box.jpg')  no-repeat;
 	float: left;
 	margin: 0 3px;
 	display: inline-block;	
@@ -190,14 +180,19 @@ nav ul li a
 .segmento-right #contador  .dash .digit {
 	font-size: 1em;
 	font-weight: bold;	
-	width: 10%;
+	width: 15%;
 	text-align: center;
 	font-family: Arial;
-	color: #2f2e2e;
+	color: #fff; /*2f2e2e*/
 	padding: 5%;
 	display: inline-block;
 	position: relative;
-	
+	border: 2px solid white;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
 }
 .segmento-right #contador  .dash_title {
 	position: relative;
@@ -231,6 +226,10 @@ nav ul li a
 	width: 210px;
 	height: 210px;
 	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
 }
 
 .segmentos .artist-portrait figcaption {
@@ -250,6 +249,10 @@ nav ul li a
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     background: none repeat scroll 0% 0% rgba(76,76,76, 0.7);/* rgba(212, 110, 42, 0.3),rgba(63, 149, 149, 0.3),rgba(87, 73, 81, 0.3);*/
     line-height: 20px;
     font-size: .8em;
@@ -262,7 +265,7 @@ nav ul li a
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .segmentos .artist-portrait  figcaption span {
-    transition: all 0.4s ease-in-out 0.5s;
+    transition: all 0.1s ease-in-out 0.5s;
     opacity: 0;
     top: 50%;
 }
